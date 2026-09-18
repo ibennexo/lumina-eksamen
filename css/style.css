@@ -127,10 +127,10 @@ img{
 
 .hero-product {
     position: absolute;
-    width: 450px;
+    width: 382px;
     height: auto;
-    left: 10%;
-    bottom: 8%;
+    left: 13%;
+    bottom: -4%;
     z-index: 3; 
 }
 
