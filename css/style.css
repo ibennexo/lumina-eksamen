@@ -2,10 +2,15 @@
 /* CSS-VARIABLER */
 
 :root {
-    /* INDSÆT CSS-KODE 1 HER */
---primary-color:#DAA691;
---secondary-color:#533E3A;
---white:#ffffff;
+    /* FARVEPALETTE V2 */
+
+    --primary-color: #783F46;
+    --secondary-color: #33352F;
+    --background-color: #F5F3ED;
+    --light-beige: #EEEAE2;
+    --light-sand: #E8E2D8;
+    --taupe: #927E6A;
+    --white: #FFFFFF;
 
 
     --font-size-small: 13px;
