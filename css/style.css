@@ -326,9 +326,43 @@ img{
     background-color: var(--secondary-color);
 }   
 
+/* DISCOVER - PRODUKTSEKSTION */
+.discover {
+    background-color: var(--background-color);
+    padding: 100px 9%;
+    color: var(--secondary-color);
+}   
 
+/* DISCOVER - OVERORDNET LAYOUT */
 
+.discover-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
 
+/* DISCOVER - VENSTRE SIDE */
+
+.discover-text {
+    width: 50%;
+}
+
+/* DISCOVER - PRODUKTBILLEDE */
+
+.discover-product {
+    width: 40%;
+    height: auto;
+}
+
+/* DISCOVER - DETALJEBILLEDER */
+
+.discover-details {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    display: block;
+}
 
 
 
