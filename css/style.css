@@ -234,12 +234,14 @@ img{
    
 }
 
+/* HERO - PRODUKTBILLEDE HØJTALER*/
+
 .hero-product {
     position: absolute;
-    width: 382px;
+    width: 22%;
     height: auto;
-    left: 13%;
-    bottom: -4%;
+    left: 15%;
+    bottom: 12%;
     z-index: 3; 
 }
 
@@ -247,8 +249,8 @@ img{
 
 .hero-content {
     position: absolute;
-    top: 15%;
-    left: 10%;
+    top: 22%;
+    left: 14%;
     z-index: 2;
     width: 80%;
     text-align: left;
@@ -273,7 +275,7 @@ img{
     font-weight: var(--font-weight-normal);
     font-family: var(--font-family);
     line-height: 1.5;
-    max-width: 650px;  
+    max-width: 450px;  
 }
 
 /* HERO - BAGGRUNDSBILLEDE */
@@ -299,21 +301,25 @@ img{
 
 /* HERO - CTA-KNAP */
 
+/* HERO - CTA-KNAP */
+
 .hero-button {
-   display: inline-block;
-    padding: 20px 55px;
+    position: absolute;
+    top: 65%;
+    left: 39%;
+    z-index: 3;
+    display: inline-block;
+    padding: 15px 45px;
     border: none;
-    border-radius: 999px;
-    background-color:var(--primary-color);
+    border-radius: 25px;
+    background-color: var(--primary-color);
     color: var(--white);
-    font-size: var(--font-size-base);
-    font-weight: var(--font-weight-medium); 
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-medium);
     font-family: var(--font-family);
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 100px;
-    
 }
 
 /* HERO - CTA HOVER */
