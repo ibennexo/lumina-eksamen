@@ -84,6 +84,11 @@ header .brand {
     text-decoration: none;
 }
 
+/* DROPDOWN-MENU */
+.dropdown-menu {
+    display: none;
+}
+
 header .navbar ul {
     /* INDSÆT CSS-KODE 5 HER */
     list-style: none;
