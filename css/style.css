@@ -130,13 +130,21 @@ header .navbar ul li a:hover {
 /* MENU-KNAP */
 
 header label {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     color: var(--secondary-color);
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-normal);
     cursor: pointer;
 }
 
+/* HAMBURGERIKON */
+
+header label img {
+    width: 20px;
+    height: auto;
+}
 
 /* HERO-SEKTION */
 
