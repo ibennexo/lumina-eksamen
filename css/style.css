@@ -135,15 +135,16 @@ header .navbar ul li {
     margin: 0 20px;
 }
 
+/* NAVIGATION - STYLING AF LINKS */
+
 header .navbar ul li a {
-    color:var(--secondary-color);
+    color: var(--secondary-color);
     display: block;
-    padding: 15px 10px;
-    font-size: 20px;
+    padding: 5px 10px;
+    font-size: var(--font-size-base);
     font-weight: var(--font-weight-normal);
-    font-family:"Roboto", sans-serif;
+    font-family: var(--font-family);
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
 header .navbar ul li a:hover {
@@ -201,6 +202,7 @@ header label img {
     font-family: var(--font-family);
     font-size: var(--font-size-small);
 }
+
 /* PROFIL OG INDKØBSPOSE */
 
 .header-icons {
