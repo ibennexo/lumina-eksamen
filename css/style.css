@@ -191,6 +191,16 @@ header label img {
     gap: 8px;
 }
 
+/* SØGEFELT - UDSEENDE */
+
+.search-field {
+    width: 120px;
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+    background-color: transparent;
+    font-family: var(--font-family);
+    font-size: var(--font-size-small);
+}
 /* PROFIL OG INDKØBSPOSE */
 
 .header-icons {
