@@ -93,7 +93,7 @@ header .brand {
     left: 0;
     background-color: var(--background-color);
     padding: 20px;
-    width: 200%;
+    width: 200px;
 
 }
 /* DROPDOWN-LISTE */
@@ -172,6 +172,38 @@ header label {
 
 header label img {
     width: 20px;
+    height: auto;
+}
+
+/* HØJRE SIDE AF HEADER */
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* SØGEFELT - PLACERING */
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* PROFIL OG INDKØBSPOSE */
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* STØRRELSE PÅ IKONER */
+
+.search-container img,
+.header-icons img {
+    width: 24px;
     height: auto;
 }
 
