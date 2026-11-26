@@ -240,7 +240,7 @@ img{
     position: absolute;
     width: 22%;
     height: auto;
-    left: 15%;
+    left: 11%;
     bottom: 12%;
     z-index: 3; 
 }
@@ -298,8 +298,6 @@ img{
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
 }
-
-/* HERO - CTA-KNAP */
 
 /* HERO - CTA-KNAP */
 
