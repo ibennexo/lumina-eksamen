@@ -26,6 +26,12 @@
     --font-size-xl: 24px;
     --font-size-xxl: 28px;
 
+     /* HERO - SKRIFTSTØRRELSER */
+
+    --font-size-hero: 4.5rem;
+    --font-size-hero-tablet: 3rem;
+    --font-size-hero-mobile: 2.5rem;
+
 *{
     padding: 0;
     margin: 0;
