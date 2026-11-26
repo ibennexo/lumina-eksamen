@@ -55,6 +55,7 @@ body {
 
 /* HEADER OG NAVIGATION */
 
+/* HEADER - OVERORDNET LAYOUT */
 header {
     position: fixed;
     top: 0;
@@ -69,11 +70,12 @@ header {
 }
 
 header .brand img {
-    width: 200px;
-    height: auto;
-    display: block;
-    display: flex;
-    align-self: left;
+    font-family: var(--font-heading);
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-color);
+    letter-spacing: 0;
+    text-decoration: none;
 }
 
 header .brand {
