@@ -91,9 +91,13 @@ header .brand {
     position: absolute;
     top: 100%;
     left: 0;
-}
-/* VIS DROPDOWN-MENU VED KLIK */
+    background-color: var(--background-color);
+    padding: 20px;
+    width: 200%;
 
+}
+
+/* VIS DROPDOWN-MENU VED KLIK */
 #menu-bar:checked ~ .dropdown-menu {
     display: block;
 }
