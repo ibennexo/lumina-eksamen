@@ -17,7 +17,14 @@
     --font-heading: "Lora", serif;
     --font-family: "Roboto", sans-serif;
 
+/* SKRIFTSTØRRELSER */
 
+    --font-size-small: 13px;
+    --font-size-base: 16px;
+    --font-size-medium: 18px;
+    --font-size-large: 20px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 28px;
 
 *{
     padding: 0;
