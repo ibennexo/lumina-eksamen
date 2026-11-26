@@ -364,5 +364,17 @@ img{
     display: block;
 }
 
+/* DISCOVER - PRODUKTSPECIFIKATIONER */
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+}
+/* DISCOVER - STØRRELSE PÅ IKONER */
 
+.feature img {
+    height: 45px;
+    width: auto;
+}
 
