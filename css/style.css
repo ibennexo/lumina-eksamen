@@ -32,6 +32,15 @@
     --font-size-hero-tablet: 3rem;
     --font-size-hero-mobile: 2.5rem;
 
+    /* SKRIFTTYKKELSER */
+
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+}
+
 *{
     padding: 0;
     margin: 0;
