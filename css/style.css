@@ -1,7 +1,7 @@
 
 /* CSS-VARIABLER */
-
 :root {
+
     /* FARVEPALETTE V2 */
 
     --primary-color: #783F46;
@@ -12,21 +12,11 @@
     --taupe: #927E6A;
     --white: #FFFFFF;
 
+/* SKRIFTTYPER V2 */
 
-    --font-size-small: 13px;
-    --font-size-base: 16px;
-    --font-size-medium: 18px;
-    --font-size-large: 20px;
-    --font-size-xl: 24px;
-    --font-size-xxl: 28px;
-    --font-size-hero: 4.5rem;
-    --font-size-hero-tablet: 3rem;
-    --font-size-hero-mobile: 2.5rem;
-    --font-weight-normal: 400;
-    --font-weight-medium: 500;
-    --font-weight-semibold: 600;
-    --font-weight-bold: 700;
-}
+    --font-heading: "Lora", serif;
+    --font-family: "Roboto", sans-serif;
+
 
 
 *{
