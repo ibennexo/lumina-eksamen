@@ -17,7 +17,7 @@
     --font-heading: "Lora", serif;
     --font-family: "Roboto", sans-serif;
 
-/* SKRIFTSTØRRELSER */
+    /* SKRIFTSTØRRELSER */
 
     --font-size-small: 13px;
     --font-size-base: 16px;
@@ -52,9 +52,6 @@ body {
     line-height: 1.6;
 }
 
-
-/* HEADER OG NAVIGATION */
-
 /* HEADER - OVERORDNET LAYOUT */
 header {
     position: fixed;
@@ -69,20 +66,21 @@ header {
     z-index: 1000;
 }
 
-header .brand img {
+/* VENSTRE SIDE AF HEADER */
+.header-left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+/* LOGO */
+header .brand {
     font-family: var(--font-heading);
     font-size: var(--font-size-xxl);
     font-weight: var(--font-weight-bold);
     color: var(--secondary-color);
-    letter-spacing: 0;
-    text-decoration: none;
-}
-
-header .brand {
-    font-size: var(--font-size-xxl);
-    font-weight: var(--font-weight-bold);
-    color:var(--primary-color);
-    letter-spacing: 2px;
+    letter-spacing: 0px;
     text-decoration: none;
 }
 
