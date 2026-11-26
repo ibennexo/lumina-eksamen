@@ -96,6 +96,27 @@ header .brand {
     width: 200%;
 
 }
+/* DROPDOWN-LISTE */
+
+.dropdown-menu ul {
+    list-style: none;
+}
+
+/* DROPDOWN-LINKS */
+
+.dropdown-menu a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: var(--font-size-base);
+    display: block;
+    padding: 8px 0;
+}
+
+/* DROPDOWN-HOVER */
+
+.dropdown-menu a:hover {
+    text-decoration: underline;
+}
 
 /* VIS DROPDOWN-MENU VED KLIK */
 #menu-bar:checked ~ .dropdown-menu {
