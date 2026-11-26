@@ -297,20 +297,22 @@ img{
     z-index: 1;
 }
 
+/* HERO - CTA-KNAP */
+
 .hero-button {
    display: inline-block;
-    padding: 20px 100px;
+    padding: 12px 35px;
     border: none;
     border-radius: 999px;
     background-color:var(--primary-color);
-    color:#533E3A;
-    font-size: 28px;
-    font-weight: var(--font-weight-semibold);
-    font-family: "Roboto", sans-serif;
+    color: var(--white);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium); 
+    font-family: var(--font-family);
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-top: 30px;
+    margin-top: 25px;
     
 }
 
