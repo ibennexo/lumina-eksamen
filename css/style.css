@@ -68,6 +68,7 @@ header {
 
 /* VENSTRE SIDE AF HEADER */
 .header-left {
+        position: relative;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -87,6 +88,9 @@ header .brand {
 /* DROPDOWN-MENU */
 .dropdown-menu {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
 }
 /* VIS DROPDOWN-MENU VED KLIK */
 
