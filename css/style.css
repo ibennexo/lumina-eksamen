@@ -88,6 +88,11 @@ header .brand {
 .dropdown-menu {
     display: none;
 }
+/* VIS DROPDOWN-MENU VED KLIK */
+
+#menu-bar:checked ~ .dropdown-menu {
+    display: block;
+}
 
 header .navbar ul {
     /* INDSÆT CSS-KODE 5 HER */
@@ -122,11 +127,13 @@ header .navbar ul li a:hover {
     display: none;
 }
 
+/* MENU-KNAP */
+
 header label {
-    display: none;
+    display: block;
     color: var(--secondary-color);
-    font-size: var(--font-size-large);
-    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-normal);
     cursor: pointer;
 }
 
